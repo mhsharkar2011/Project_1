@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ==============================================================================
+                        HEADER PART START 
+====================================================================================*/
+#header_part{
+    background: #0f2f44;
+}
+#header_part .left_part{
+    width: 50%;
+    float: left;
+}
+#header_part .right_part{
+    width: 50%;
+    float: left;
+}
+#header_part p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:500;
+    padding: 10px 0px;
+}
+#header_part .right_part p{
+    text-align: right;
+}
+                        
+/*=======================================================================================
+                         HEADER PART END
+=========================================================================================*/
+
+/* ====================================================================================== 
+                             NAVBAR PART START 
+==========================================================================================*/
+#navbar_part .logo_part{
+    width: 20%;
+    float: left;
+    margin-top: 30px;
+   
+}
+#navbar_part .menu_part{
+    width: 60%;
+    float: left;
+   
+}
+
+#navbar_part .menu_part ul li{
+    display: inline-block;
+    padding: 35px 10px;
+    margin-left: 10px;
+    transition: .4s;    /*--change here --*/
+}
+#navbar_part .menu_part ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+#navbar_part .menu_part ul{
+    text-align: center;
+}
+#navbar_part .menu_part ul li:hover{
+    background: #fff9e6;
+}
+#navbar_part .menu_part ul li:hover a{
+    color: #ffc712;
+}
+#navbar_part .menu_part ul .active a{
+    color: #ffc712;
+}
+#navbar_part .button_part{
+    width:20%;
+    height: 100px;
+    float: left;
+    margin-top: 38px;
+}
+#navbar_par .button_part i{
+    color: #999999;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 10px;
+    background: #111;
+}
+/* ===========================================================================================
+                              NAVBAR PART END
+===============================================================================================*/
