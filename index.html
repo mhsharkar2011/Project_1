@@ -8,6 +8,7 @@
 <!-- =====================================================
                 CSS Part Start
 =======================================================-->
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 <!-- =====================================================
@@ -20,9 +21,21 @@
 =======================================================-->
 <section id="headerPart">
     <div class="container">
-        <div class="leftPart floatLeft"><span class="cont">Welcome to our Company</span></div>
-        <div class="rightPart floatRight"><span class="cont">Opening Hour: 08:00 a.m to 10:00 p.m</span></div>
-        <div class="clr"></div>
+        <div class="row">
+            <div class="item">
+                <div class="col-lg-6">
+                    <div class="item-content">
+                        <p class="left-text">Welcome to our Company</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="item-content">
+                        <p class="right-text">Opening Hour: 08:00 a.m to 10:00 p.m</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
 </section>
 <!-- =====================================================
@@ -34,22 +47,29 @@
 =======================================================-->
 <section id="navbar">
     <div class="container">
-        <div class="navbar-brand floatLeft"><a href="index.html"><img src="images/logo.png" alt="Logo"></a></div>
-        <div class="navbar-nav floatLeft">
-            <ul class="nav">
-                <li><a class="nav-link active" href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="row">
+            <div class="item">
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+                <div class="navbar-nav">
+                    <div class="nav">
+                        <ul>
+                            <li><a class="active" href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="icon">
+                        <a class="bar" href=""><i class="fas fa-bars nav_bar"></i></a>
+                        <a class="search" href=""><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="icon floatLeft">
-            <div class="bar"><i class="fas fa-bars nav_bar"></i></div>
-            <div class="search"><i class="fas fa-search"></i></div>
-        </div>
-        <div class="clr"></div>
     </div>
 </section>
 <!-- =====================================================
@@ -453,5 +473,16 @@
 <!-- =====================================================
                 Copyright Part End
 =======================================================-->
+
+<!-- =====================================================
+                Javascripts Part Start
+=======================================================-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/scripts.js"></script>
+<!-- =====================================================
+                Javascripts Part ENd
+=======================================================-->
+
 </body>
 </html>
